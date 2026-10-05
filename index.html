@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Тест з Історії України</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main class="app">
+    <section id="screen-home">
+      <h1 class="title">Тест з Історії України</h1>
+      <p class="credit">Тест створила Єлизавета Косогоренко, 11 клас</p>
+      <button id="btn-start" type="button">Почати тест</button>
+    </section>
+
+    <section id="screen-quiz" hidden>
+      <div id="hud">
+        <span id="hud-score"></span>
+        <span id="hud-grade"></span>
+      </div>
+      <div id="quiz-grid"></div>
+      <div id="quiz-nav">
+        <button id="btn-back" type="button">Назад</button>
+        <button id="btn-next" type="button">Далі</button>
+      </div>
+      <div id="countdown" class="countdown" hidden></div>
+    </section>
+
+    <section id="screen-final" hidden>
+      <div id="final-result"></div>
+      <button id="btn-restart" type="button">Пройти ще раз</button>
+    </section>
+  </main>
+</body>
+</html>
